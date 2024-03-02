@@ -23,7 +23,7 @@ spec:
     value: lax-scan-policy 
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/language: java
+      apps.tanzu.vmware.com/language: skip
   serviceClaims: null
   resources:
     requests:
@@ -78,7 +78,7 @@ spec:
     value: lax-scan-policy 
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/language: java
+      apps.tanzu.vmware.com/language: skip
   - name: api_descriptor
     value:
       type: openapi
@@ -141,7 +141,7 @@ spec:
     value: lax-scan-policy
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/language: java
+      apps.tanzu.vmware.com/language: skip
   serviceClaims:
   - name: rmq
     ref:
@@ -196,7 +196,7 @@ spec:
     value: lax-scan-policy
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/language: java
+      apps.tanzu.vmware.com/language: skip
   serviceClaims:
   - name: rmq
     ref:
@@ -260,7 +260,7 @@ spec:
     value: lax-scan-policy
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/language: java
+      apps.tanzu.vmware.com/language: skip
   serviceClaims:
   - name: rmq
     ref:
@@ -314,7 +314,7 @@ spec:
     value: lax-scan-policy
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/language: java
+      apps.tanzu.vmware.com/language: skip
   resources:
     requests:
       memory: 500M
@@ -360,7 +360,7 @@ spec:
     value: lax-scan-policy
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/language: java
+      apps.tanzu.vmware.com/language: skip
   resources:
     requests:
       memory: 500M
