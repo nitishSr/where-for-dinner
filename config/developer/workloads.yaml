@@ -38,7 +38,7 @@ spec:
       value: "17"
   source:
     git:
-      url: https://github.com/chakrabortsu/where-for-dinner.git
+      url: https://github.com/nitishSr/where-for-dinner.git
       ref:
         branch: main
     subPath: where-for-dinner-api-gateway
@@ -102,7 +102,7 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/chakrabortsu/where-for-dinner.git
+      url: https://github.com/nitishSr/where-for-dinner.git
       ref:
         branch: main
     subPath: where-for-dinner-search
@@ -157,7 +157,7 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/chakrabortsu/where-for-dinner.git
+      url: https://github.com/nitishSr/where-for-dinner.git
       ref:
         branch: main
     subPath: where-for-dinner-search-proc
@@ -212,7 +212,7 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/chakrabortsu/where-for-dinner.git
+      url: https://github.com/nitishSr/where-for-dinner.git
       ref:
         branch: main
     subPath: where-for-dinner-notify
@@ -276,7 +276,7 @@ spec:
       cpu: "1.5"
   source:
     git:
-      url: https://github.com/chakrabortsu/where-for-dinner.git
+      url: https://github.com/nitishSr/where-for-dinner.git
       ref:
         branch: main
     subPath: where-for-dinner-availability
@@ -328,7 +328,7 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/chakrabortsu/where-for-dinner.git
+      url: https://github.com/nitishSr/where-for-dinner.git
       ref:
         branch: main
     subPath: where-for-dinner-ui
@@ -374,7 +374,7 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/chakrabortsu/where-for-dinner.git
+      url: https://github.com/nitishSr/where-for-dinner.git
       ref:
         branch: main
     subPath: where-for-dinner-crawler
