@@ -14,9 +14,9 @@ spec:
       value: build
     - name: BP_WEB_SERVER_ROOT
       value: dist
-    - name: NPM_PROXY
+    - name: HTTP_PROXY
       value: http://proxy.vmware.com:3128
-    - name: NPM_HTTPS_PROXY
+    - name: HTTPS_PROXY
       value: http://proxy.vmware.com:3128
   params:
   - name: annotations
