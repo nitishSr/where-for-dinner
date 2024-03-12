@@ -302,6 +302,10 @@ spec:
   env:
   - name: REACT_APP_PROFILE
     value: nonsecure
+  - name: NPM_PROXY
+    value: http://proxy.vmware.com:3128
+  - name: NPM_HTTPS_PROXY
+    value: http://proxy.vmware.com:3128
   params:
   - name: annotations
     value:
