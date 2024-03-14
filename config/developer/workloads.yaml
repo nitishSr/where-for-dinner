@@ -299,17 +299,13 @@ spec:
       value: build
     - name: BP_WEB_SERVER_ROOT
       value: dist
-    - name: HTTP_PROXY
-      value: http://proxy.vmware.com:3128
-    - name: HTTPS_PROXY
-      value: http://proxy.vmware.com:3128
+    #- name: HTTP_PROXY
+    #  value: http://proxy.vmware.com:3128
+    #- name: HTTPS_PROXY
+    #  value: http://proxy.vmware.com:3128
   env:
   - name: REACT_APP_PROFILE
     value: nonsecure
-  - name: HTTP_PROXY
-    value: http://proxy.vmware.com:3128
-  - name: HTTPS_PROXY
-    value: http://proxy.vmware.com:3128
   params:
   - name: annotations
     value:
